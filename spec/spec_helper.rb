@@ -5,7 +5,7 @@ def app()
   Application.new
 end
 RSpec.configure do |config|
-
+  config.color = true
   config.include Rack::Test::Methods
 
   config.order = 'default'
